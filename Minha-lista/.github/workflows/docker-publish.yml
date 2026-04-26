@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-e-push:
-    runs-on: ubuntu-latest # O computador que o robô vai usa
+    runs-on: ubuntu-latest # O computador que o robô vai usar
 
     steps:
       # Passo 1: O robô baixa o seu código
