@@ -29,4 +29,4 @@ jobs:
           context: . # Modificado porque a meu projeot esta dentro de minha lista
           push: true # Envia para o registry
           # Mude "seu-usuario" para o seu usuário real abaixo!
-          tags: ruanfelipesoares22/todolist:latest
+          tags: ruanfelipe013/todolist:latest
