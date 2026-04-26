@@ -20,7 +20,7 @@ RUN npm run build
 
 # ESTÁGIO 2: Produção 
 
-# Iniciando uma nova imagem utilizando o ngnix
+# Iniciando uma nova imagem 
 FROM nginx:alpine
 
 #Copiando a pasta "dist" para a pasta pública do NGINX
