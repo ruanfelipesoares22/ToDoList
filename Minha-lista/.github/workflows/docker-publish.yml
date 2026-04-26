@@ -26,8 +26,7 @@ jobs:
       - name: Build e Push da Imagem
         uses: docker/build-push-action@v5
         with:
-          context: ./Minha-lista. # Modificado porque a meu projeot esta dentro de minha lista
-          file: ./Minha-lista/Dockerfile
+          context: . # Modificado porque a meu projeot esta dentro de minha lista
           push: true # Envia para o registry
           # Mude "seu-usuario" para o seu usuário real abaixo!
           tags: ruanfelipesoares22/todolist:latest
