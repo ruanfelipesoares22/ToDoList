@@ -1,6 +1,6 @@
 name: Deploy do To-Do App para o Docker Hub
 
-# Aciona o robô toda vez que fizermos push na branch main
+# Aciona o robô toda vez que fizermos push na branch 
 on:
   push:
     branches:
