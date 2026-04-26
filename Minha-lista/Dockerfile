@@ -8,7 +8,7 @@ WORKDIR /app
 #Copiamos apenas os arquivos de dependência primeiro (para aproveitar o cache do Docker)
 COPY package.json package-lock.json ./
 
-#Instalando as dependências
+#Instalando 
 RUN npm install
 
 #Copiando o codigo para a aplicacao
