@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 
-# ESTÁGIO 2: Produção 
+# ESTÁGIO 2:  
 
 # Iniciando uma nova imagem 
 FROM nginx:alpine
