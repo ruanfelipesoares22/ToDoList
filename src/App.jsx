@@ -49,7 +49,7 @@ export default function App(){
     <div>
       <h1>ToDoList - Bloco do Ruanzinho</h1>
         <div>
-          <label htmlFor="descricao">Descricao da tarefa </label>
+          <label htmlFor="descricao">Descricao da atividade</label>
           <input id="descricao" type="text" value={descricao} onChange={e => setDescricao(e.target.value)}></input>
         </div>
 
