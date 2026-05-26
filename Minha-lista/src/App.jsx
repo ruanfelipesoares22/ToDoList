@@ -47,7 +47,7 @@ export default function App(){
   }
   return(
     <div>
-      <h1>ToDoList - Bloco do Ruanzinho</h1>
+      <h1>ToDoList - Bloco do Ruanzinho atualizado com azure</h1>
         <div>
           <label htmlFor="descricao">Descricao da atividade</label>
           <input id="descricao" type="text" value={descricao} onChange={e => setDescricao(e.target.value)}></input>
