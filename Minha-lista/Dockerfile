@@ -1,6 +1,6 @@
 
 # Compilacao do projeto
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 # Pasta de trabalho dentro do container
 WORKDIR /app
